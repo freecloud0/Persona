@@ -14,13 +14,10 @@
 Route::get('/', function () {
     return view('formulario/inicio');
 });
-Route::get('create', function () {
-    return view('formulario/configuracion/create');
-});
+
 Route::get('test', function () {
     return view('welcome');
 });
 Route::get('/departamento','DepartamentoController@index');
-Route::get('/create','DepartamentoController@create');
-
-
+Route::get('/departamento/create','DepartamentoController@create');
+Route::post('/departamento','DepartamentoController@store');

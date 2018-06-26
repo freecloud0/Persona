@@ -18,9 +18,9 @@
     <link href="../../dist/css/style.min.css" rel="stylesheet">
 
    
-    <link rel="stylesheet" type="text/css" href="css/mdb.css" media="screen" /> 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen" /> 
-    <link rel="stylesheet" type="text/css" href="css/general.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/mdb.css')}}" media="screen" /> 
+    <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}" media="screen" /> 
+    <link rel="stylesheet" type="text/css" href="{{asset('css/general.css')}}" media="screen" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 </head>
@@ -259,15 +259,15 @@
 
     </div>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="{{asset('js/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.js')}}"></script>
     <!-- Bootstrap tether Core JavaScript -->
     <script src="../../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
     <!--Custom JavaScript -->
     <script src="../../dist/js/custom.min.js"></script>
 
-    <script src="js/popper.min.js"></script>
-    <script src="js/mdb.js"></script>
+    <script src="{{asset('js/popper.min.js')}}"></script>
+    <script src="{{asset('js/mdb.js')}}"></script>
 
     <!--Scrip de Tooltip  -->
     <script>
